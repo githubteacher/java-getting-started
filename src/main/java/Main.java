@@ -21,7 +21,7 @@ public class Main extends HttpServlet {
 
   private void showHome(HttpServletRequest req, HttpServletResponse resp)
       throws ServletException, IOException {
-    resp.getWriter().print("Hello from Auto Push 6:04 AM!");
+    resp.getWriter().print("Hello from Auto Push - blue 6:18 AM!");
   }
 
   private void showDatabase(HttpServletRequest req, HttpServletResponse resp)
