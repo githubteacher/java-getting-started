@@ -23,7 +23,7 @@ public class Main extends HttpServlet {
 
   private void showHome(HttpServletRequest req, HttpServletResponse resp)
       throws ServletException, IOException {
-    resp.getWriter().print("Hello from BLUE fixed Auto Push 6:04 AM!");
+    resp.getWriter().print("Hello from somewhat blue test. Hello Denver class!");
   }
 
   private void showDatabase(HttpServletRequest req, HttpServletResponse resp)
